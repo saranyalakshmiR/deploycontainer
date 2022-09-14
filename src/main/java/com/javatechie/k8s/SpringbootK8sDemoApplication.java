@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringbootK8sDemoApplication {
 
-	@GetMapping("/message")
+	@GetMapping("/sample")
 	public String displayMessage(){
 		return "Hello World Hi saranya !!";
 	}
